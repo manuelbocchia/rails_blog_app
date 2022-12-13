@@ -1,24 +1,26 @@
-# README
+# README: BLOG APP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I built the app following the Ruby on Rails Getting Started guide:
+https://guides.rubyonrails.org/getting_started.html
 
-Things you may want to cover:
+This is the first time I'm trying to fill out a real ReadMe file and they say I should complete these fields, so I'll do my best.
 
-* Ruby version
+* Ruby version: Ruby 3.1.2p20
 
-* System dependencies
+* Rails version: Rails 7.0.4
 
-* Configuration
+* System dependencies: ??
 
-* Database creation
+* Configuration: ??
 
-* Database initialization
+* Database creation: eeemmh there's SQLite and ProstgreSQL gems in here.
 
-* How to run the test suite
+* Database initialization: ??
 
-* Services (job queues, cache servers, search engines, etc.)
+* How to run the test suite: no test suite set up.
 
-* Deployment instructions
+* Services (job queues, cache servers, search engines, etc.): ??
 
-* ...
+* Deployment instructions: ??
+
+* Well, I tried my best. I don't think I need to be more specific, specially since it's a simple blog app for me to grasp the basics of the MVC model and the configurations of a basic webapp with Rails (which is honestly surprisingly easy)
