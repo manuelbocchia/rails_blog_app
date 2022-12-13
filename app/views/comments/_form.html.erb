@@ -1,0 +1,19 @@
+<%= form_with model: [ @article, @article.comments.build ] do |form| %>
+  <p class="mb-3">
+    <%= form.label "Who's writing?" %><br>
+    <%= form.text_field :commenter %>
+  </p>
+  <p class="mb-3">
+    <%= form.label "What have you to say?" %><br>
+    <%= form.text_area :body %>
+  </p>
+  
+    <div class="mb-3">
+      <%= form.label :status%>
+      <%= form.select :status, ['public','private','archived'], selected: 'public', class:'form-select', aria_label:"Default select example" %>
+    </div>
+
+  <p>
+    <%= form.submit class:"btn btn-light btn-hover" %>
+  </p>
+<% end %>
